@@ -29,7 +29,6 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:4800",
      "https://clinareserver.vercel.app/"
     ], //allow request from client address
     credentials: true, //allow cookie to be sent
